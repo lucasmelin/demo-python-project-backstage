@@ -1,6 +1,6 @@
 site_name: demo-python-project-backstage Documentation
-repo_name: lucasmelin/demo123
-repo_url: https://github.com/lucasmelin/demo123
+repo_name: lucasmelin/demo_python_project_backstage
+repo_url: https://github.com/lucasmelin/demo_python_project_backstage
 edit_uri: edit/master/docs
 theme:
   name: material

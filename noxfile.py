@@ -5,7 +5,7 @@ from pathlib import Path
 
 import nox
 
-package = "demo123"
+package = "demo_python_project_backstage"
 nox.options.sessions = "lint", "safety", "tests"
 locations = "src", "tests", "noxfile.py"
 

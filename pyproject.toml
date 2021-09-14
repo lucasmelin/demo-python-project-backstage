@@ -3,8 +3,8 @@ name = "demo-python-project-backstage"
 version = "0.1.0"
 description = ""
 authors = ["Lucas Melin <email>"]
-homepage = "https://github.com/lucasmelin/demo123"
-repository = "https://github.com/lucasmelin/demo123"
+homepage = "https://github.com/lucasmelin/demo_python_project_backstage"
+repository = "https://github.com/lucasmelin/demo_python_project_backstage"
 
 [tool.poetry.dependencies]
 python = "^3.7"
