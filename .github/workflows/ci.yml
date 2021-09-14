@@ -59,3 +59,7 @@ jobs:
       # Run the tests with nox
       - name: Run unit tests
         run: poetry run nox -rs tests
+
+      # Run the dependency check with nox
+      - name: Run unit tests
+        run: poetry run nox -rs tests

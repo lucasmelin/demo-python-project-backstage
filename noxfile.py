@@ -105,7 +105,7 @@ def safety(session):
             f"--output={requirements.name}",
             external=True,
         )
-        session.install_with_constraints(session, "safety")
+        install_with_constraints(session, "safety")
         session.run("safety", "check", f"--file={requirements.name}", "--full-report")
     Path(requirements.name).unlink()
 
