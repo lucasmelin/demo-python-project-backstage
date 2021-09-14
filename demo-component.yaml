@@ -13,7 +13,8 @@ spec:
   type: service
   lifecycle: production
   owner: lucasmelin
-  providesApis: demo-python-api-backstage
+  providesApis:
+   - demo-python-api-backstage
 
 ---
 
