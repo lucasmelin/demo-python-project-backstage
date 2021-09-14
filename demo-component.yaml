@@ -13,3 +13,21 @@ spec:
   type: service
   lifecycle: production
   owner: lucasmelin
+  providesApis:
+   - demo-python-api-backstage
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: demo-python-api-backstage
+  description: Demo python API to show off Backstage integration
+  tags:
+    - python  
+spec:
+  type: openapi
+  lifecycle: production
+  owner: lucasmelin
+  definition:
+    $text: https://github.com/lucasmelin/demo-python-project-backstage/blob/master/openapi.json
