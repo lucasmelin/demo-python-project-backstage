@@ -1,0 +1,14 @@
+name: demo-python-project-backstage
+image: okteto/python-fastapi
+command: |
+  pip install poetry
+  poetry install
+  bash
+volumes:
+- /root/.cache/pip
+sync:
+- .:/usr/src/app
+forward:
+- 8000:8000
+reverse:
+- 9000:9000
