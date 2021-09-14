@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo-python-project-backstage
+  description: Demo python project to show off Backstage integration
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'pod-template-hash=749fd4569f'
+    github.com/project-slug: lucasmelin/demo-python-project-backstage
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - python  
+spec:
+  type: service
+  lifecycle: production
+  owner: lucasmelin
