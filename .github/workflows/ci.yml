@@ -61,5 +61,5 @@ jobs:
         run: poetry run nox -rs tests
 
       # Run the dependency check with nox
-      - name: Run unit tests
-        run: poetry run nox -rs tests
+      - name: Run dependency (sca) check
+        run: poetry run nox -rs safety
