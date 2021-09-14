@@ -526,6 +526,14 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "insecure-package"
+version = "0.1.0"
+description = "Insecure Package, don't use it"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "ipykernel"
 version = "6.4.1"
 description = "IPython Kernel for Jupyter"
@@ -1590,7 +1598,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "1875ef3396c629d0e2f0849e9654d0fc5c8f3970dae816a0d2f118cb27aab33c"
+content-hash = "427859c6debffbda341ba0c75adaa05bd58ab5c50e991f282ca5444ed29b2111"
 
 [metadata.files]
 appnope = [
@@ -1889,6 +1897,10 @@ importlib-metadata = [
 iniconfig = [
     {file = "iniconfig-1.1.1-py2.py3-none-any.whl", hash = "sha256:011e24c64b7f47f6ebd835bb12a743f2fbe9a26d4cecaa7f53bc4f35ee9da8b3"},
     {file = "iniconfig-1.1.1.tar.gz", hash = "sha256:bc3af051d7d14b2ee5ef9969666def0cd1a000e121eaea580d4a313df4b37f32"},
+]
+insecure-package = [
+    {file = "insecure-package-0.1.0.tar.gz", hash = "sha256:4da7b05a052f19841c1efbd4cc8edea9a78aaaa295360923cb2b052b547b7877"},
+    {file = "insecure_package-0.1.0-py2.py3-none-any.whl", hash = "sha256:4d9485a53c970c892f887e10fd99e97b82848ac9010e79bc715585e1a6a74422"},
 ]
 ipykernel = [
     {file = "ipykernel-6.4.1-py3-none-any.whl", hash = "sha256:a3f6c2dda2ecf63b37446808a70ed825fea04790779ca524889c596deae0def8"},
